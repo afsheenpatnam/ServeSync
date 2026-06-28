@@ -1,0 +1,42 @@
+# Python / Backend
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.cache/
+
+# Environment variables
+.env
+.env.local
+.env.production
+backend/.env
+
+# Scripts with sensitive data
+backend/create_admins.py
+
+# Uploads
+backend/uploads/food_images/*
+!backend/uploads/food_images/.gitkeep
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code (local only)
+.claude/
